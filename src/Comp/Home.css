@@ -1,0 +1,30 @@
+/* Home.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .categories {
+    margin-top: 20px;
+  }
+  
+  .categories-link {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row; /* Aligns the links in a row, change to column if needed */
+    gap: 20px; /* Space between links */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  
+  h2{
+    text-align: center;
+  }

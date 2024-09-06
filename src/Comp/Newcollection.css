@@ -1,0 +1,22 @@
+.collection-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+  }
+  
+  .item-container img {
+    width: 100%; /* Ensure images are responsive */
+    height: auto;
+    border-radius: 10px; /* Add some rounded corners to the image */
+  }
+  
+  .item-container {
+    border: 1px solid #ddd; /* Border around each item */
+    padding: 15px;
+    text-align: center; /* Center text within the item */
+    background-color: #f9f9f9;
+  }
+  h3{
+    text-align: center;
+  }

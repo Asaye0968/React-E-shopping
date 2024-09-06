@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pad: 20px;
+    background-color: #232323;
+    top: 0;
+    width: 100%;
+    height: 70px; /* Adjust to fit your navbar height */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+ul.nav-links {
+    list-style: none;  /* Removes bullets */
+    display: flex;     /* Optional: Align list items horizontally */
+  }
+.links{
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.links:hover{
+    color: #ff7200;
+}

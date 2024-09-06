@@ -1,0 +1,13 @@
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image:hover{
+    transform: scale(1.05);
+    transition: 0.51s;
+}
+.product{
+    box-shadow: 1px 2px 3px 2px #f5f5f5;
+    width: 110%;
+}
