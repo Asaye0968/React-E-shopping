@@ -38,4 +38,8 @@
   .cart-item-details button {
     margin-right: 50px;
   }
-  
+  li.cart-item {
+    gap: 30px;
+    display: grid;
+    margin-bottom: 30px;
+}

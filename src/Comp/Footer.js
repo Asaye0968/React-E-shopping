@@ -31,7 +31,7 @@ const Footer = () => {
           <h4>Quick Links</h4>
           <ul>
           <li>
-          <Link to="/" className='links'>Home</Link>
+          <Link to="/Home" className='links'>Home</Link>
         </li>
         <li>
           <Link to="/All_products" className='links'>Shop</Link>

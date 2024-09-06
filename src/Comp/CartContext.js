@@ -2,8 +2,9 @@ import React, { createContext, useContext, useState } from 'react';
 import All_product from '../Comp/image/all_product'; // Adjust path as needed
 
 const CartContext = createContext();
-
+//crteate new context called createcontext used for cart state
 export const CartProvider = ({ children }) => {
+    //cart provider used to wrap all contents
   const [cart, setCart] = useState({});
 
   const addToCart = (item) => {

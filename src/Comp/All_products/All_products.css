@@ -10,12 +10,13 @@
     }
   }
   
+  /* Container for the product collection */
   .collection-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 60px;
     padding: 20px;
-    row-gap: 120px;
+    row-gap: 5px;
   }
   
   /* Apply the animation to each grid item */
@@ -36,7 +37,7 @@
   }
   /* Add more delays if you have more products */
   
-  
+  /* Item container styling */
   .item-container img {
     width: 100%; /* Ensure images are responsive */
     height: auto;
@@ -49,37 +50,62 @@
     text-align: center; /* Center text within the item */
     background-color: #f9f9f9;
   }
-  h3{
+  
+  /* Product name styling */
+  h3 {
     text-align: center;
   }
+  
+  /* Discount badge styling */
+  /* Product card container styling */
+.product-card {
+    position: relative; /* Ensure badge positioning is relative to the product card */
+    transition: transform 0.3s;
+  }
+  
+  /* Discount badge styling */
   .discount-badge {
     position: absolute;
-    
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
     background-color: red;
-    color: white;
     padding: 5px;
     border-radius: 50%;
     font-size: 0.8rem;
+    z-index: 10; /* Ensure the badge is above other elements */
   }
+  
+  /* Optional: Adjust the size of the badge if needed */
+  .discount-badge {
+    font-size: 0.7rem; /* Adjust the font size for better visibility */
+    padding: 4px 8px; /* Adjust padding for better fit */
+  }
+  
+  
+  /* Quick view button styling */
   .quick-view {
-position: relative;
-top: -80px;
-left: 140px;
+    position: relative;
+    top: -105px;
+    left: 140px;
+    background: none;
+    font-size: 35px;
+    font-weight: 900;
     padding: 5px 8px;
-    background-color: #007bff;
-    color: white;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s;
   }
+  
+  .quick-view:hover {
+    color: #0056b3;
+  }
+  
+  /* Product card hover effect */
   .product-card:hover {
     transform: scale(1.05);
   }
-  .quick-view:hover {
-    background-color: #0056b3;
-  }
-  .product-card {
-    transition: transform 0.3s;
-  }
+  
+  /* Button styling in category buttons */
   .category-buttons {
     display: flex;
     justify-content: center;
