@@ -16,14 +16,13 @@ const App = () => {
 <Route path='/' element={<Home />} />
 
 <Route path='/Cart' element={<Cart />} />
-
-<Route path='/Newcollection' element={<Newcollection />} />
 <Route path='/All_products' element={<All_products />} />
+<Route path='/Newcollection' element={<Newcollection />} />
 <Route path='/Cart' element={<Cart />} />
 
 </Routes>
+     <All_products/>
       <Newcollection/>
-      <All_products/>
       <Footer/>
       </BrowserRouter>
     </div>

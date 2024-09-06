@@ -22,7 +22,7 @@ const Nav = () => {
           <Link to="/All_products" className='links'>Shop</Link>
         </li>
         <li>
-          <Link to="/about" className='links'>About</Link>
+          <Link to="/Newcollection" className='links'>Newcollection</Link>
         </li>
         <li>
           <Link to="/Cart" className='links'><FaShoppingBag />

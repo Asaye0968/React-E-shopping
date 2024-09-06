@@ -6,7 +6,7 @@ import './Newcollection.css'; // Create a CSS file for styling
 const Newcollection = () => {
   return (
     <div>
-        <h3>our menu</h3>
+        <h3>New_collection</h3>
     <div className="collection-container">
       {New_collection.map((item, i) => (
         <Item 
